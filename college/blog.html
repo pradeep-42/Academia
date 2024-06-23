@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.o">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img class="logoimg" src="styles/images/books.png" alt="altimage" />
+            <a href="index.html" class="logoname">ACADEMIA</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="/">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & online Programs For 2024</h1>
+    
+    </section>
+
+    <!-------blog page content------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+            <img src="styles/images/certificate.jpg">
+            <h2>Our Certificate & online Programs For 2024</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ratione harum? Aut, eius praesentium dolore, iusto non ratione, dolorum ad cum mollitia quia itaque minima</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ratione harum? Aut, eius praesentium dolore, iusto non ratione, dolorum ad cum mollitia quia itaque minima</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit vero sint, fuga eaque illum odio dignissimos saepe culpa sunt quaerat error distinctio a, sapiente debitis neque perspiciatis obcaecati consectetur.</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quas praesentium totam dignissimos vero sit ea nostrum nobis? Sit autem rerum perferendis illum, delectus corrupti harum iusto debitis reiciendis id.</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            
+            </div>
+            <div class="blog-right">
+                <h3>Post Categoties</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>07</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>17</span>
+                </div>
+                <div>
+                    <span>Information Technology</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+   
+
+    <!----Footer---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae asperiores ea illo <br>doloribus quasi iure neque exercitationem ullam, est fuga.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fa fa-heart-o"></i> by alphabets</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-------JavaScript for Toggle Menu--------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+<script src="https://kit.fontawesome.com/d9f2f05c48.js" crossorigin="anonymous"></script>
+</body>
+</html>
